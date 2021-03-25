@@ -1,24 +1,24 @@
 {
-  "name": "global-ban-list-api",
-  "description": "",
+  "name": "pastel",
   "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "dependencies": {
-    "fastify": "^3.13.0"
+    "fastify": "^3.14.0"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "tsc && node build/index.js",
-    "dev": "tsc-watch --onSuccess 'node ./build/index.js'"
+    "start": "node ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SeasideDevs/Global-Ban-List-API.git"
+    "url": "git+https://github.com/SeasideDevs/Pastel.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Issai H",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SeasideDevs/Global-Ban-List-API/issues"
+    "url": "https://github.com/SeasideDevs/Pastel/issues"
   },
-  "homepage": "https://github.com/SeasideDevs/Global-Ban-List-API#readme"
+  "homepage": "https://github.com/SeasideDevs/Pastel#readme"
 }
