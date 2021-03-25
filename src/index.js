@@ -4,15 +4,17 @@ const fastify = require("fastify")({
 });
 
 // Declare a route
-fastify.get("/", function (request, reply) {
-  reply.send({ message: "Hi!" });
+fastify.get("/", async function (request, reply) {
+  return reply.send({ message: "Hi!" });
 });
 
 // Run the server!
-fastify.listen(3000, function (err, address) {
-  if (err) {
+const start = async () => {
+  try {
+    await fastify.listen(3000);
+  } catch (err) {
     fastify.log.error(err);
     process.exit(1);
   }
-  fastify.log.info(`server listening on ${address}`);
-});
+};
+start();
