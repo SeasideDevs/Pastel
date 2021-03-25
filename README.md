@@ -1,1 +1,1 @@
-# Global-Ban-List-API
+# Paste
