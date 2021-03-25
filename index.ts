@@ -2,8 +2,8 @@ import fastify from "fastify";
 
 const server = fastify();
 
-server.get("/ping", async (request, reply) => {
-  return "pong\n";
+server.get("/", async (request, reply) => {
+  return reply.send({ message: "Hi!" });
 });
 
 server.listen(3000, (err, address) => {
