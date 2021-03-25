@@ -2,7 +2,6 @@
   "name": "global-ban-list-api",
   "description": "",
   "version": "1.0.0",
-  "main": "index.js",
   "dependencies": {
     "fastify": "^3.13.0"
   },
@@ -12,7 +11,7 @@
     "typescript": "^4.2.3"
   },
   "scripts": {
-    "start": "npx tsc index.ts && node index.js"
+    "start": "tsc && node build/index.js"
   },
   "repository": {
     "type": "git",
