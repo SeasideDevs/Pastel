@@ -1,6 +1,6 @@
 // Require the framework and instantiate it
 const fastify = require("fastify")({
-  logger: true,
+  logger: false,
 });
 
 // Declare a route
