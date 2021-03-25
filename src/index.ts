@@ -6,6 +6,8 @@ server.get("/", async (request, reply) => {
   return reply.send({ message: "Hi!" });
 });
 
+server.register(require("./routes/get.js"));
+
 server.listen(3000, (err, address) => {
   if (err) {
     console.error(err);
