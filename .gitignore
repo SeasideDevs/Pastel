@@ -17,4 +17,4 @@ typings/
 .env.test
 
 # Random
-index.js
+build
