@@ -2,7 +2,7 @@
   "name": "pastel",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "dependencies": {
     "fastify": "^3.14.0"
   },
