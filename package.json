@@ -3,6 +3,7 @@
   "scripts": {
     "watch:scripts": "tsc-watch --onSuccess 'npm start'",
     "build:scripts": "tsc",
+    "prettier": "prettier --write .",
     "start": "node dist/index.js"
   },
   "dependencies": {
