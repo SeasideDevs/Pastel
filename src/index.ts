@@ -1,17 +1,17 @@
-import fastify from 'fastify'
+import fastify from "fastify";
 
 const server = fastify({
-  ignoreTrailingSlash: true
-})
+  ignoreTrailingSlash: true,
+});
 
-server.get('/', async (request, reply) => {
-  return 'pong\n'
-})
+server.get("/", async (request, reply) => {
+  return "pong\n";
+});
 
 server.listen(3000, (err, address) => {
   if (err !== undefined) {
-    console.error(err)
-    process.exit(1)
+    console.error(err);
+    process.exit(1);
   }
-  console.log(`Server listening at ${address}`)
-})
+  console.log(`Server listening at ${address}`);
+});

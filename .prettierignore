@@ -1,0 +1,10 @@
+./dist
+.husky
+.prettierrc.toml
+.prettierignore
+.lintstagedrc
+.gitignore
+example.config.toml
+tsconfig.json
+example.env
+config.toml
