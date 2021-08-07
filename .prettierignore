@@ -1,9 +1,12 @@
+# Folders
 ./dist
 .husky
+# Dotfiles
 .prettierrc.toml
 .prettierignore
 .lintstagedrc
 .gitignore
+# Config
 example.config.toml
 tsconfig.json
 example.env
