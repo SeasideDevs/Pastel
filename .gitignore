@@ -1,20 +1,6 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-
-# Dependency directories
-node_modules/
-
-# TypeScript v1 declaration files
-typings/
-
-# TypeScript cache
-*.tsbuildinfo
-
-# dotenv environment variables file
+# Folders
+node_modules
+# Config Files
+config.*
+# Dotfiles
 .env
-.env.test
-
-# Random
-build
