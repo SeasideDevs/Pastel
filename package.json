@@ -1,6 +1,8 @@
 {
   "name": "pastel",
   "scripts": {
+    "install:develop": "npm i --production=false",
+    "install:production": "npm i --production",
     "watch:scripts": "tsc-watch --onSuccess 'npm start'",
     "build:scripts": "tsc",
     "prettier": "prettier --write .",
