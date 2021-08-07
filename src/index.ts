@@ -9,7 +9,7 @@ server.get('/', async (request, reply) => {
 })
 
 server.listen(3000, (err, address) => {
-  if (err) {
+  if (err !== undefined) {
     console.error(err)
     process.exit(1)
   }
