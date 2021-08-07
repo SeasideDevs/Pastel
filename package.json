@@ -10,7 +10,8 @@
   },
   "ts-standard": {
     "ignore": [
-      "dist"
+      "dist",
+      "tsconfig.json"
     ]
   },
   "dependencies": {
