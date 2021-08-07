@@ -5,8 +5,7 @@
     "install:production": "npm i --production",
     "watch:scripts": "tsc-watch --onSuccess 'npm start'",
     "build:scripts": "tsc",
-    "lint:check": "ts-standard --verbose | snazzy",
-    "lint:fix": "ts-standard --fix --verbose | snazzy",
+    "lint": "ts-standard --fix --verbose | snazzy",
     "start": "node dist/index.js"
   },
   "ts-standard": {
