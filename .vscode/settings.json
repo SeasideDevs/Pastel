@@ -1,4 +1,5 @@
 {
     "standard.engine": "ts-standard",
-    "javascript.validate.enable": false
+    "standard.autoFixOnSave": true,
+    "javascript.validate.enable": false,
 }
