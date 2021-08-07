@@ -13,16 +13,19 @@ Once you gotten the go ahead from us you can get started and setup the project o
 First, make a fork of the project to your own GitHub account.
 
 Then clone your fork to your local machine with the following command or use a GUI to do it:
+
 ```bash
 git clone https://github.com/YOUR-USERNAME-HERE/Pastel.git
 ```
 
 To install all the dependencies required run the following command:
+
 ```bash
 npm run install:develop
 ```
 
 Now just run the following command. And now you're ready to code! Have fun!
+
 ```bash
 npm run watch:scripts
 ```
