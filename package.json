@@ -4,8 +4,8 @@
     "prepare": "husky install",
     "install:develop": "npm i --production=false",
     "install:production": "npm i --production",
-    ":scripts": "tsc-watch --onSuccess 'npm start'",
-    "build:scripts": "tsc",
+    "scripts:watch": "tsc-watch --sourceMap --onSuccess 'npm start'",
+    "scripts:build": "tsc",
     "prettier": "prettier --write .",
     "start": "node dist/index.js"
   },
