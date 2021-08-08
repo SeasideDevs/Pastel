@@ -10,10 +10,12 @@ server.get("/", async (request, reply) => {
 });
 
 const routes = readdirSync(__dirname + "/routes");
+console.log(routes);
 routes.forEach(async (routeFileName) => {
   const routeFile = await import(`${__dirname}/routes/${routeFileName}`);
   const route = routeFile.route;
-  server.route(route);
+  console.log(route);
+  // server.route(route);
 });
 
 server.listen(3000, (err, address) => {
