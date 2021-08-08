@@ -1,3 +1,5 @@
+# Base
+
 # Folders
 dist
 .husky
@@ -11,3 +13,5 @@ example.config.toml
 tsconfig.json
 example.env
 config.toml
+
+# Project

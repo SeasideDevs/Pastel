@@ -1,6 +1,10 @@
+# Base
+
 # Folders
 node_modules
 # Config Files
 config.*
 # Dotfiles
 .env
+
+# Project
