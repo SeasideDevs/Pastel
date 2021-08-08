@@ -8,3 +8,4 @@ config.*
 .env
 
 # Project
+*.map
