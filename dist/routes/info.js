@@ -9,4 +9,3 @@ exports.route = {
         reply.send("Pastel Global Ban List");
     },
 };
-//# sourceMappingURL=info.js.map

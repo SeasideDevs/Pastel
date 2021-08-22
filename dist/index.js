@@ -73,13 +73,11 @@ routes.forEach(function (routeFileName) { return __awaiter(void 0, void 0, void 
     var routeFile, route;
     return __generator(this, function (_a) {
         switch (_a.label) {
-            case 0:
-                console.count("count");
-                return [4 /*yield*/, Promise.resolve().then(function () { return __importStar(require(__dirname + "/routes/" + routeFileName)); })];
+            case 0: return [4 /*yield*/, Promise.resolve().then(function () { return __importStar(require(__dirname + "/routes/" + routeFileName)); })];
             case 1:
                 routeFile = _a.sent();
                 route = routeFile.route;
-                console.log(route);
+                server.route(route);
                 return [2 /*return*/];
         }
     });
@@ -91,4 +89,3 @@ server.listen(3000, function (err, address) {
     }
     console.log("Server listening at " + address);
 });
-//# sourceMappingURL=index.js.map
